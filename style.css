@@ -9,8 +9,16 @@ body{
     padding: 0;
     height: 1203px;
     width: 1000px;
-    
-    
+}
+
+@media screen and (max-width: 800px){
+    body{
+        width: auto;
+        height: auto;
+        margin: 0;
+        border: 0;
+        box-shadow: none;
+    }
 }
 
 /* Nom CV */
@@ -32,6 +40,21 @@ body h1{
     display: flex;
     flex-direction: row;
 }
+@media screen and (max-width: 800px){
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    body h1{
+        
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+        min-width: 650px;
+        
+    }
+}
+
 
 /* partie gauche du CV */
 .main_left{
@@ -43,9 +66,33 @@ body h1{
     flex-flow: row wrap;
     font-size: 12px;
 }
+@media screen and (max-width: 800px){
+    .main_left{
+        border: 0;
+        margin: 0;
+        padding: 0;
+        width: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 650px;
+    }
+    .main_left p{
+        min-width: 650px;
+        
+    }
+}
+
 .main_left h2{
     text-align: center;
     border-bottom: 1px solid black;
+}
+@media screen and (max-width: 800px){
+    .main_left h2{
+       border: 0;
+    }
 }
 .personal_details i{
     margin: 10px;
@@ -53,6 +100,12 @@ body h1{
 .langues{
     width: 190px;
 }
+@media screen and (max-width: 800px){
+    .langues{
+        width: auto;
+    }
+}
+
 
 
 
@@ -61,6 +114,15 @@ body h1{
     width: 700px;
     font-size: 14px;
     margin-left: 30px;
+}
+@media screen and (max-width: 800px){
+    .main_right{
+        width: auto;
+        min-width: 650px;
+    }
+    .main_right h2{
+        width: auto;
+    }
 }
 
 .main_right h2{
