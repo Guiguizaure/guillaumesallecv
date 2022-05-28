@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600&display=swap');
+
+/* taille de la page */
+body{
+    border: black 1px solid;
+    box-shadow: rgb(237, 237, 237) 0px 0px 20px 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px auto;
+    padding: 0;
+    height: 1203px;
+    width: 1000px;
+    
+    
+}
+
+/* Nom CV */
+body h1{
+    
+    margin-top: 50px;
+    padding-right: 110px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 600;
+    font-size: 45px;
+    background-color: rgb(240, 240, 240);
+}
+
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+/* partie gauche du CV */
+.main_left{
+    border-right: 1px solid black;
+    margin-left: 25px;
+    padding-right: 16px;
+    width: 190px;
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 12px;
+}
+.main_left h2{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.personal_details i{
+    margin: 10px;
+}
+.langues{
+    width: 190px;
+}
+
+
+
+/* partie droite du CV */
+.main_right{
+    width: 700px;
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+.main_right h2{
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+/* partie formation */
+.formations{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+.time_formation{
+    width: 100px;
+    height: auto;
+}
+.time_formation h3{
+    color: rgb(55, 134, 204);
+    font-size: 15px;
+}
+
+.location_formation{
+    width: 400px;
+    height: auto;
+}
+
+
+/* partie experience pro */
+.experiences_pro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.experiences_pro h3{
+    font-weight: 600;
+}
+.experiences_pro h4{
+    color: rgb(152, 152, 152);
+}
+.experiences_pro h5{
+    font-style: italic;
+}
+
+.time_experiences{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.time_experiences h3{
+    color: rgb(55, 134, 204);
+    font-size: 15px;
+}
+.location_experiences{
+    width: 420px;
+}
